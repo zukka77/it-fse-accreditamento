@@ -7,7 +7,10 @@ import xlsxwriter
 
 
 RESULTS_PATH = Path("RESULTS/results.json")
+
 RESULTS_OUT_MD_PATH = Path("RESULTS/README.md")
+RESULTS_OUT_MD_TEMPLATE_PATH="scripts/RESULTS.md.tpl"
+
 RESULTS_OUT_XLSX_PATH = "RESULTS/results.xlsx"
 
 
@@ -54,8 +57,7 @@ def generate_md(md_table_lines: List[str]):
     print(md_lines)
     templateLoader = jinja2.FileSystemLoader(searchpath="./")
     templateEnv = jinja2.Environment(loader=templateLoader)
-    TEMPLATE_FILE = "RESULTS.md.tpl"
-    template = templateEnv.get_template(TEMPLATE_FILE)
+    template = templateEnv.get_template(RESULTS_OUT_MD_TEMPLATE_PATH)
     outputText = template.render(md_table_lines=md_table_lines)
     RESULTS_OUT_MD_PATH.write_text(outputText, encoding="utf8")
 
