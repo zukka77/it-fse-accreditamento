@@ -1,0 +1,43 @@
+{
+    "results": [
+        {
+            "vendor": "FOO",
+            "application_id": "BAR",
+            "version": "1.0.8",
+            "doc_type": [
+                "LAB"
+            ],
+            "service": [
+                "VALIDATION"
+            ],
+            "date": "2022-02-17",
+            "gtw_version": "1.0"
+        },
+        {
+            "vendor": "FOO2",
+            "application_id": "BAR",
+            "version": "21.01.00",
+            "doc_type": [
+                "LAB"
+            ],
+            "service": [
+                "VALIDATION"
+            ],
+            "date": "2022-02-17",
+            "gtw_version": "1.0"
+        },
+        {
+            "vendor": "Engineering_Ingegneria_Informatica_S.p.A",
+            "application_id": "BAZ",
+            "version": "21.01.00",
+            "doc_type": [
+                "LAB"
+            ],
+            "service": [
+                "VALIDATION"
+            ],
+            "date": "2022-02-17",
+            "gtw_version": "1.0"
+        }
+    ]
+}
