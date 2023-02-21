@@ -9,7 +9,7 @@ import xlsxwriter
 RESULTS_PATH = Path("RESULTS/results.json")
 
 RESULTS_OUT_MD_PATH = Path("RESULTS/README.md")
-RESULTS_OUT_MD_TEMPLATE_PATH="scripts/RESULTS.md.tpl"
+RESULTS_OUT_MD_TEMPLATE_PATH = "scripts/RESULTS.md.tpl"
 
 RESULTS_OUT_XLSX_PATH = "RESULTS/results.xlsx"
 
@@ -71,7 +71,7 @@ def generate_xlsx(xls_lines: List[List[str]]):
             worksheet.write(row_num, col_num, col_data)
 
     for col in range(len(xls_lines[0])):
-        worksheet.set_column(col,col,width=max([len(xls_lines[r][col]) for r in range(len(xls_lines))]))
+        worksheet.set_column(col, col, width=max([len(xls_lines[r][col]) for r in range(len(xls_lines))]))
 
     workbook.close()
 
