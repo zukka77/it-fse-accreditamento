@@ -1,8 +1,8 @@
 {
     "results": [
         {
-            "vendor": "SCS_SRL",
-            "application_id": "ALCHYMIA",
+            "vendor": "FOO",
+            "application_id": "BAR",
             "version": "1.0.8",
             "doc_type": [
                 "LAB"
@@ -14,8 +14,8 @@
             "gtw_version": "1.0"
         },
         {
-            "vendor": "Engineering_Ingegneria_Informatica_S.p.A",
-            "application_id": "OpenLisCS",
+            "vendor": "FOO2",
+            "application_id": "BAR",
             "version": "21.01.00",
             "doc_type": [
                 "LAB"
@@ -28,7 +28,7 @@
         },
         {
             "vendor": "Engineering_Ingegneria_Informatica_S.p.A",
-            "application_id": "OpenLisWeb",
+            "application_id": "BAZ",
             "version": "21.01.00",
             "doc_type": [
                 "LAB"
