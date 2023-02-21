@@ -6,9 +6,9 @@ from pathlib import Path
 import xlsxwriter
 
 
-RESULTS_PATH = Path("results.json")
-RESULTS_OUT_MD_PATH = Path("README.md")
-RESULTS_OUT_XLSX_PATH = "results.xlsx"
+RESULTS_PATH = Path("RESULTS/results.json")
+RESULTS_OUT_MD_PATH = Path("RESULTS/README.md")
+RESULTS_OUT_XLSX_PATH = "RESULTS/results.xlsx"
 
 
 @dataclass
