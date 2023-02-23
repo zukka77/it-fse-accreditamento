@@ -38,6 +38,19 @@
             ],
             "date": "2022-02-17",
             "gtw_version": "1.0"
+        },
+        {
+            "vendor": "PIPPO",
+            "application_id": "BAO",
+            "version": "1",
+            "doc_type": [
+                "LAB"
+            ],
+            "service": [
+                "VALIDATION","PUBBLICATION"
+            ],
+            "date": "2022-02-17",
+            "gtw_version": "1.0"
         }
     ]
 }
