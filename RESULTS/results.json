@@ -51,6 +51,19 @@
             ],
             "date": "2022-02-17",
             "gtw_version": "1.0"
+        },
+        {
+            "vendor": "TEST",
+            "application_id": "APPBELLISSIMA",
+            "version": "42",
+            "doc_type": [
+                "PSS"
+            ],
+            "service": [
+                "VALIDATION"
+            ],
+            "date": "2022-02-24",
+            "gtw_version": "1.0"
         }
     ]
 }
